@@ -17,7 +17,19 @@ if (NOT raylib_FOUND)
 endif()
 
 # Add executable
-add_executable(driving_simulator driving_simulator.cpp)
+add_executable(driving_simulator
+    src/main.cpp
+    src/car_model.cpp
+    src/path_trail.cpp
+    src/keyboard_state.cpp
+    src/camera_controller.cpp
+    src/model_factory.cpp
+    src/ui_renderer.cpp
+    src/car_renderer.cpp
+)
+
+# Include directories
+target_include_directories(driving_simulator PRIVATE include)
 
 # Link libraries
 target_link_libraries(driving_simulator raylib)
