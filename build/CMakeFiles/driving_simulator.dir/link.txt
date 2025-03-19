@@ -1,1 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/driving_simulator.dir/driving_simulator.cpp.o -o driving_simulator  /usr/local/lib/libraylib.dylib -framework IOKit -framework Cocoa -framework OpenGL
