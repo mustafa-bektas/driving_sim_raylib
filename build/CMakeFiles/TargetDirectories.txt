@@ -1,0 +1,3 @@
+/Users/mustafa/Desktop/car/build/CMakeFiles/driving_simulator.dir
+/Users/mustafa/Desktop/car/build/CMakeFiles/edit_cache.dir
+/Users/mustafa/Desktop/car/build/CMakeFiles/rebuild_cache.dir
